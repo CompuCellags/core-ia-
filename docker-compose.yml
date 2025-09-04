@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  ia-core:
+    build: .
+    container_name: ia_core_models
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    command: >
+      bash -c "python training/train_cnn.py --config configs/cnn_default.yaml"
+
+  fastapi-server:
+    image: tiangolo/uvicorn-gunicorn-fastapi:python3.10
+    container_name: fastapi_educativo
+    volumes:
+      - ./api:/app
+    ports:
+      - "8080:80"

@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Entrenar CNN",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/training/train_cnn.py",
+      "console": "integratedTerminal",
+      "args": ["--config", "configs/cnn_default.yaml"]
+    }
+  ]
+}
