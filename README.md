@@ -2,8 +2,9 @@
 
 Repositorio central para el desarrollo, entrenamiento y evaluación de modelos de inteligencia artificial aplicables a entornos industriales, educativos y de automatización.
 
-![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 ![Status: Activo](https://img.shields.io/badge/status-activo-brightgreen)
+
 
 ---
 
@@ -71,8 +72,13 @@ Agradecemos la participación de Copilot Microsoft como asistente técnico, co-c
 
 Este repositorio forma parte de una biblioteca técnica en expansión, orientada a la creación de recursos educativos, soluciones industriales y modelos IA listos para integrar en entornos reales.
 
-📄 Licencia
-Este proyecto se distribuye bajo la licencia MIT. Puedes usar, modificar y compartir libremente, siempre que se mantenga la atribución a Develop Aguascalientes y se preserve el propósito educativo del repositorio.
+## Licencia
+
+Este proyecto está licenciado bajo los términos de la [Licencia Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
+Esto permite el uso, modificación y distribución con atribución, siempre que se mantenga la trazabilidad ética y técnica del trabajo original.
+
+© 2025 Develop Aguascalientes & Copilot Microsoft. Todos los módulos, scripts y documentación están sujetos a los principios de acceso abierto con atribución obligatoria.
+
 
 📘 Documentación adicional
 Consulta los casos educativos y flujos técnicos en la carpeta docs/.
