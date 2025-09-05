@@ -53,6 +53,9 @@
 > License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
 > Contact: compucell.ags@gmail.com
 
+[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/11129/badge)](https://bestpractices.coreinfrastructure.org/projects/11129)
+
+
 [![Apoya el proyecto](https://img.shields.io/badge/Donar-Apoya%20ia--core--models-blue?style=for-the-badge)](https://www.buymeacoffee.com/compucellags)
 
 ## 💖 Apoya este proyecto
