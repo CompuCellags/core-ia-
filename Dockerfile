@@ -18,3 +18,6 @@ RUN pip install --upgrade pip \
 COPY . .
 
 CMD ["python", "training/train_cnn.py", "--config", "configs/cnn_default.yaml"]
+
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
