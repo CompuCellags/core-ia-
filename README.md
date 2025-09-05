@@ -53,6 +53,16 @@
 > License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
 > Contact: compucell.ags@gmail.com
 
+[![Apoya el proyecto](https://img.shields.io/badge/Donar-Apoya%20ia--core--models-blue?style=for-the-badge)](https://www.buymeacoffee.com/compucellags)
+
+## 💖 Apoya este proyecto
+
+Este repositorio forma parte de una biblioteca técnica y ética internacional. Si valoras el trabajo de documentación, auditoría y educación abierta, puedes apoyar aquí:
+
+👉 [Buy Me a Coffee]([https://www.buymeacoffee.com/compucellags)]
+👉 [GitHub Sponsors](https://github.com/sponsors/CompuCellags) 
+
+Tu apoyo permite seguir creando módulos bilingües, trazables y accesibles para todos.
 
 ##🧠 IA Core Models
 
