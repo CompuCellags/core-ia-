@@ -16,3 +16,6 @@ def load_config(path):
             raise ValueError(f"❌ Configuración inválida: falta '{key}'")
 
     return config
+
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
