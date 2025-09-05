@@ -1,24 +1,17 @@
-# 📘 Changelog (`CHANGELOG.md`)
+# CHANGELOG
 
-All notable changes to this project will be documented here.
+## [v1.2.0] - 2025-09-01
+### Added
+- Integrated ASCII banner into CLI and README.md
+- Created bilingual `repo_interim.md` for collaborative review
 
-## [interim-0.9.0] – Initial Setup
+### Changed
+- Updated `SECURITY.md` with new ethical traceability flow
 
-- Created ethical runner configuration
-- Added SSH fingerprint validation
-- Established base CLI structure
+### Fixed
+- Corrected fingerprint validation logic in SSH module
 
-## [interim-0.9.5] – Documentation Phase
-
-- Integrated bilingual Markdown modules
-- Added visual evidence for audit traceability
-
-## [interim-0.9.9] – Validation Phase
-
-- Finalized module structure
-- Verified reproducibility and ethical closure
-
-## [release-1.0.0] – CPE Candidate
-
-- Prepared for CPE submission
-- Linked all supporting documentation
+## [v1.1.0] - 2025-08-15
+### Added
+- Initial submission to NVD for CPE registration
+- Modular documentation in `docs/` folder
