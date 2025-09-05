@@ -19,3 +19,6 @@ def predict():
     output = model(dummy_input)
     predicted_class = torch.argmax(output, dim=1).item()
     return {"predicción": predicted_class}
+
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
