@@ -19,3 +19,18 @@ This project follows ethical audit standards and includes replicable validation 
 
 - Compatible with CVE, CVSS, and ethical audit platforms
 - Designed for replicable review and transparent closure
+
+## 🛡️ Proceso de reporte de vulnerabilidades
+
+Si detectas una vulnerabilidad de seguridad en este proyecto, por favor repórtala de forma responsable siguiendo estos pasos:
+
+1. Crea un [Issue privado](https://github.com/CompuCellags/ia-core-models/edit/main/docs/SECURITY.md) o envía un correo a: seguridad@tudominio.com
+2. Incluye:
+   - Descripción técnica clara
+   - Pasos para reproducir el problem
+   - Evidencia (logs, capturas, scripts)
+   - Impacto estimado
+3. El equipo revisará el reporte en un plazo de 7 días y propondrá mitigaciones éticas y trazables.
+
+Este proyecto sigue prácticas responsables de divulgación y prioriza la seguridad de sus usuarios.
+
