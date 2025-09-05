@@ -1,0 +1,20 @@
+name: dev  # Nombre del entorno, debe coincidir con el que activas en el workflow
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - flake8
+  - pytest
+  - ipython
+  - jupyter
+  - numpy
+  - pandas
+  - matplotlib
+  - requests
+  - pip:
+      - rich  # Para CLI con estilo
+      - typer  # Para interfaces CLI modulares
+      - pre-commit  # Para validaciones éticas antes de cada commit
