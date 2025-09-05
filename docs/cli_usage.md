@@ -93,3 +93,7 @@ Cada comando es modular y trazable.
 La validación del dataset previene entrenamientos no éticos.
 
 Los logs garantizan reproducibilidad y auditabilidad.
+
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
+
