@@ -181,3 +181,6 @@ Ejemplo:
 
 if __name__ == '__main__':
     main()
+    
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
