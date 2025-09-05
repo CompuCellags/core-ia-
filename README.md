@@ -92,13 +92,11 @@ python training/train_cnn.py --config configs/cnn_default.yaml
 
 ##👥 Authorship
 
-|-------------------------------------------|--------------------------------------|---------------------------------------|
-|         Project developed by:             |	          📍 Location:	             |           📧 Contact:                 |
-|-------------------------------------------|--------------------------------------|---------------------------------------|
-|Develop Aguascalientes & Copilot Microsoft |	Jesús María, Aguascalientes, México  |	developaguascalientes@outlook.com    |
-|-------------------------------------------|--------------------------------------|---------------------------------------|
-|                                           |                                      |  compucell.ags@gmail.com              |
-|-------------------------------------------|--------------------------------------|---------------------------------------|
+
+|         Proyecto desarrollado por:           |	          📍 Ubicación              |              	📧 Contacto               |
+|----------------------------------------------|--------------------------------------|-----------------------------------------|
+| Develop Aguascalientes y Copilot Microsoft   |	Jesús María, Aguascalientes, México	| desarrolloaguascalientes@outlook.com    |
+|                                              |                                      | compucell.ags@gmail.com                 |
 
 ---
 
