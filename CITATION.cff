@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Si utilizas este repositorio, por favor cita como se indica."
+title: "IA Core Models: Repositorio modular para entrenamiento y evaluación de modelos IA"
+authors:
+  - family-names: "Develop"
+    given-names: "Aguascalientes"
+    affiliation: "Jesús María, Aguascalientes, México"
+  - name: "Copilot Microsoft"
+    affiliation: "Asistente técnico y coautor documental"
+date-released: 2025-09-04
+version: "1.0.0"
+license: Apache-2.0
+repository-code: https://github.com/CompuCellags/core-ia-
+keywords:
+  - inteligencia artificial
+  - trazabilidad ética
+  - documentación bilingüe
+  - automatización industrial
+  - educación técnica
