@@ -222,9 +222,9 @@ El identificador CPE está en trámite ante NVD.
 
 > Una vez validado, se actualizará el estado y se emitirá la insignia correspondiente.
 
-🔄 [Release Notes](https://github.com/tu_usuario/tu_repositorio/blob/main/CHANGELOG.md)
+🔄 [Release Notes]([https://github.com/CompuCellags/ia-core-models/edit/main/docs/CHANGELOG.md])
 
-🐞 [Reportar errores](https://github.com/tu_usuario/tu_repositorio/issues)
+🐞 [Reportar errores]([https://github.com/CompuCellags/ia-core-models/edit/main/docs/CONTRIBUTING.md])
 
 ##Technical signature: Develop Aguascalientes & Copilot Microsoft Transforming every technical challenge into a replicable educational resource.
 
