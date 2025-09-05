@@ -1,6 +1,9 @@
 # Makefile for ia-core-models - reproducible educational module
 # Firma técnica: Develop Aguascalientes & Copilot Microsoft
 
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
+
 VENV := .venv
 PYTHON := $(VENV)/bin/python3
 PIP := $(VENV)/bin/pip
