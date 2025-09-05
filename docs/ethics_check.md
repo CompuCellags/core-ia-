@@ -5,6 +5,9 @@
 
 # ETHICS_CHECK MODULE
 
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
+
 ## Purpose
 This module performs basic ethical validation on datasets before training. It checks for minimum sample size and class diversity to ensure responsible and meaningful model development.
 
