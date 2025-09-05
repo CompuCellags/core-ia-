@@ -224,6 +224,8 @@ El identificador CPE está en trámite ante NVD.
 
 🔄 [Release Notes](https://github.com/tu_usuario/tu_repositorio/blob/main/CHANGELOG.md)
 
+🐞 [Reportar errores](https://github.com/tu_usuario/tu_repositorio/issues)
+
 ##Technical signature: Develop Aguascalientes & Copilot Microsoft Transforming every technical challenge into a replicable educational resource.
 
 ##Firma técnica: Develop Aguascalientes & Copilot Microsoft Transformando cada reto técnico en recurso educativo replicable.
