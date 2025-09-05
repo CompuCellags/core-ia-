@@ -8,3 +8,6 @@ def validate_dataset(dataset):
     if len(labels) < 100:
         print("⚠️ Dataset demasiado pequeño para entrenamiento ético")
     print(f"✅ Dataset validado: {len(labels)} muestras, {len(unique)} clases")
+
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
