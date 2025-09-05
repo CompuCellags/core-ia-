@@ -10,17 +10,14 @@ Repositorio central para el desarrollo, entrenamiento y evaluación de modelos d
 
 ## 📦 Estructura del repositorio
 
+Este proyecto se distribuye bajo la licencia **Apache 2.0**. Puedes usar, modificar y compartir libremente, siempre que se mantenga la atribución a **Develop Aguascalientes** y se preserve la trazabilidad ética y el propósito educativo del repositorio.
 
-
-Este proyecto se distribuye bajo la licencia **MIT**. Puedes usar, modificar y compartir libremente, siempre que se mantenga la atribución a **Develop Aguascalientes** y se preserve el propósito educativo del repositorio.
-
-📁 training/ — scripts de entrenamiento 
-📁 configs/ — configuraciones YAML para modelos 
-📁 data/ — datasets de entrada (no incluidos por defecto) 
-📁 docs/ — documentación técnica y casos educativos 
-📁 models/ — modelos entrenados exportables 
-📁 utils/ — funciones auxiliares y herramientas
-
+📁 training/ — scripts de entrenamiento reproducible  
+📁 configs/ — configuraciones YAML para modelos auditables  
+📁 data/ — datasets de entrada (no incluidos por defecto)  
+📁 docs/ — documentación técnica y casos educativos bilingües  
+📁 models/ — modelos entrenados exportables y trazables  
+📁 utils/ — funciones auxiliares y herramientas multiplataforma
 
 ---
 
@@ -46,6 +43,7 @@ Este proyecto se distribuye bajo la licencia **MIT**. Puedes usar, modificar y c
 ## 📁 Ejemplo de uso
 
 ```bash
+
 # Clonar el repositorio
 git clone git@github.com:tuusuario/ia-core-models.git
 cd ia-core-models
