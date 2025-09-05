@@ -5,6 +5,9 @@
 
 # METRICS_LOGGER MODULE
 
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
+
 ## Purpose
 This module records training metrics and configuration parameters in structured JSON logs. It ensures traceability, reproducibility, and ethical transparency in model development.
 
