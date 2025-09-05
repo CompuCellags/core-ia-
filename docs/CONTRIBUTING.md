@@ -18,3 +18,15 @@ Este repositorio forma parte de una biblioteca técnica y ética internacional. 
 ## 🤝 Contacto
 
 Para dudas éticas o técnicas: [compucell.ags@gmail.com](mailto:compucell.ags@gmail.com)
+
+## Reporte de errores
+
+Si encuentras un error técnico, vulnerabilidad o comportamiento inesperado, por favor crea un [Issue](https://github.com/CompuCellags/ia-core-models/edit/main/docs/CONTRIBUTING.md) con:
+
+- Descripción clara del problema
+- Pasos para reproducirlo
+- Evidencia visual o logs si es posible
+- Propuesta de mitigación (opcional)
+
+Todos los reportes serán revisados éticamente y documentados para trazabilidad.
+
