@@ -73,8 +73,8 @@ También puedes enviar comentarios a: contacto@developags.org
 🛡️ Código de Conducta / Code of Conduct
 Este proyecto sigue un enfoque ético y colaborativo. Consulta el archivo CODE_OF_CONDUCT.md para conocer las normas de participación.
 
-🎓 Licencia / License
-Este proyecto se distribuye bajo la licencia MIT. Puedes usar, modificar y compartir libremente, siempre respetando los principios éticos y de atribución.
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
 
 🌐 Autor / Author
 Develop Aguascalientes Autodidacta, auditor ético y fundador de iniciativas técnicas con impacto internacional. Más información en developags.org
