@@ -47,10 +47,11 @@
 #######  #####   ##    ##### ##### ###### ##       ##  ## ###### ###### ##  ## #### ###### ##  ## ##### ###### ##### ##   ###   ##   ##### ####
 |||=========================================================================================================================================||| 
 
-# ASCII Art creado por Develop Aguascalientes 
-# Contact us: compucell.ags@gmail.com
-# Proyect: ia-core-models
-# Licence: CC-BY 4.0
+> ASCII Art created by **Develop Aguascalientes**  
+> Project: `ia-core-models`  
+> License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+> Contact: compucell.ags@gmail.com
+
 
 ##🧠 IA Core Models
 
