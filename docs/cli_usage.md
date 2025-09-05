@@ -5,6 +5,9 @@
 
 # CLI USAGE GUIDE
 
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
+
 ## Purpose
 This document explains how to use the IA-CORE CLI to train models, validate datasets, and log metrics with ethical traceability. Each command integrates modular components documented in this repository.
 
