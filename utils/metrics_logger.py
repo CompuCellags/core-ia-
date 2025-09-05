@@ -17,3 +17,6 @@ def save_log(action, config, metrics=None):
     with open(path, 'w') as f:
         json.dump(log, f, indent=2)
     print(f"📝 Log guardado en: {path}")
+
+# Licensed under the Apache License, Version 2.0 (2025)
+# © Develop Aguascalientes & Copilot Microsoft
