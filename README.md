@@ -144,6 +144,18 @@ Consulta los casos educativos y flujos técnicos en la carpeta docs/.
 
 ---
 
+### ⚠️ Estado del CPE
+
+El identificador CPE está en trámite ante NVD.  
+**No se ha emitido aún una insignia oficial**, debido a que:
+
+- La información requerida para validación pública aún no ha sido confirmada por NVD.
+- El repositorio se encuentra en fase de revisión colaborativa (`repo_interim`).
+- Se está cumpliendo con los requisitos éticos de trazabilidad entre versiones.
+
+> Una vez validado, se actualizará el estado y se emitirá la insignia correspondiente.
+
+
 ##Technical signature: Develop Aguascalientes & Copilot Microsoft Transforming every technical challenge into a replicable educational resource.
 
 ##Firma técnica: Develop Aguascalientes & Copilot Microsoft Transformando cada reto técnico en recurso educativo replicable.
