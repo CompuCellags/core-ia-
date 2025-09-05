@@ -59,10 +59,11 @@
 
 Este repositorio forma parte de una biblioteca técnica y ética internacional. Si valoras el trabajo de documentación, auditoría y educación abierta, puedes apoyar aquí:
 
-👉 [Buy Me a Coffee]([https://www.buymeacoffee.com/compucellags)
+👉 [Buy Me a Coffee](https://www.buymeacoffee.com/compucellags)  
 👉 [GitHub Sponsors](https://github.com/sponsors/CompuCellags) 
 
 Tu apoyo permite seguir creando módulos bilingües, trazables y accesibles para todos.
+
 
 ##🧠 IA Core Models
 
