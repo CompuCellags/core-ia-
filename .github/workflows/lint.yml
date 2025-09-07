@@ -1,5 +1,4 @@
-# .github/workflows/lint.yml
-name: 🧪 Lint & Style Check
+name: 🧪 Lint & Style Enforcement
 
 on:
   push:
@@ -9,7 +8,7 @@ on:
 
 jobs:
   lint:
-    name: 🔍 Run flake8 & black
+    name: 🔍 Lint & Format Check
     runs-on: ubuntu-latest
 
     steps:
@@ -21,20 +20,19 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 📦 Install dependencies
+      - name: 📦 Install linting tools
         run: |
           python -m pip install --upgrade pip
           pip install flake8 black
 
-      - name: 🧼 Format with black (optional)
+      - name: 🧼 Auto-format with black
         run: |
-          black . --check --diff
+          black .
 
       - name: 🔎 Lint with flake8
         run: |
           flake8 . --count --show-source --statistics
 
-      - name: 📄 Document lint results
+      - name: 📄 Annotate lint results
         if: failure()
-        run: echo "::error file=README.md,line=1::Linting failed. See flake8 output above."
-
+        run: echo "::error file=README.md,line=1::Linting failed. Please review flake8 output above."
