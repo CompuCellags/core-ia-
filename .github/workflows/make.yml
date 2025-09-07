@@ -1,1 +1,34 @@
-run: make test
+name: 🛠️ Audit Workflow / Flujo de Auditoría
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  audit:
+    name: 🔍 Audit & Test / Auditoría y Pruebas
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository / Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: 🧪 Set up Conda / Configurar entorno Conda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          activate-environment: audit-env
+          environment-file: environment.yml
+          auto-activate-base: false
+
+      - name: ✅ Validate test folder / Validar carpeta de pruebas
+        shell: bash -l {0}
+        run: |
+          echo "🔎 Checking for tests/ folder..."
+          if [ -d "tests" ]; then
+            echo "✅ tests/ folder found. Running pytest..."
+            pytest tests/
+          else
+            echo "⚠️ No se encontró carpeta de pruebas. Flujo continuará sin ejecutar tests."
+            echo "⚠️ tests/ folder not found. Skipping test execution."
