@@ -1,6 +1,3 @@
-uses: conda-incubator/setup-miniconda@v3
-run: pytest tests/
-
 name: Conda Package Build
 
 on:
