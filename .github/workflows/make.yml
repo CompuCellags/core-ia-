@@ -4,9 +4,18 @@
 
     if [ -d tests ]; then
       echo "✅ tests/ folder found. Running pytest..."
-      .venv/bin/python3 -m pytest tests/
+
+      # Crear entorno virtual si no existe
+      if [ ! -d .venv ]; then
+        echo "🔧 Creating virtual environment..."
+        python3 -m venv .venv
+      fi
+
+      # Activar entorno y correr pruebas
+      source .venv/bin/activate
+      pip install --upgrade pip pytest
+      pytest tests/
     else
       echo "⚠️ No se encontró carpeta de pruebas. Flujo continuará sin ejecutar tests."
       echo "⚠️ tests/ folder not found. Skipping test execution."
     fi
-
