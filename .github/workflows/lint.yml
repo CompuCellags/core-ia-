@@ -1,1 +1,40 @@
-run: pylint src/
+# .github/workflows/lint.yml
+name: 🧪 Lint & Style Check
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  lint:
+    name: 🔍 Run flake8 & black
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧬 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 black
+
+      - name: 🧼 Format with black (optional)
+        run: |
+          black . --check --diff
+
+      - name: 🔎 Lint with flake8
+        run: |
+          flake8 . --count --show-source --statistics
+
+      - name: 📄 Document lint results
+        if: failure()
+        run: echo "::error file=README.md,line=1::Linting failed. See flake8 output above."
+
