@@ -1,32 +1,25 @@
-name: 🛠️ Audit Workflow / Flujo de Auditoría
+name: 🛠️ Make Build
 
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
 
 jobs:
-  audit:
-    name: 🔍 Audit & Test / Auditoría y Pruebas
+  make:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 📥 Checkout repository / Descargar repositorio
+      - name: 📥 Checkout
         uses: actions/checkout@v4
 
-      - name: 🧪 Set up Conda / Configurar entorno Conda
-        uses: conda-incubator/setup-miniconda@v3
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
         with:
-          activate-environment: audit-env
-          environment-file: environment.yml
-          auto-activate-base: false
+          python-version: '3.10'
 
-      - name: ✅ Validate test folder / Validar carpeta de pruebas
-        shell: bash -l {0}
+      - name: 🧪 Run Make
         run: |
-          echo "🔎 Checking for tests/ folder..."
-          if [ -d "tests" ]; then
+          make all
+
             echo "✅ tests/ folder found. Running pytest..."
             pytest tests/
           else
