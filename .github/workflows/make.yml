@@ -1,27 +1,12 @@
-name: 🛠️ Make Build
+- name: 🧪 Run Make and Conditional Tests
+  run: |
+    make all
 
-on:
-  push:
-    branches: [main]
+    if [ -d tests ]; then
+      echo "✅ tests/ folder found. Running pytest..."
+      .venv/bin/python3 -m pytest tests/
+    else
+      echo "⚠️ No se encontró carpeta de pruebas. Flujo continuará sin ejecutar tests."
+      echo "⚠️ tests/ folder not found. Skipping test execution."
+    fi
 
-jobs:
-  make:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 📥 Checkout
-        uses: actions/checkout@v4
-
-      - name: 🐍 Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: 🧪 Run Make
-        run: |
-          make all
-
-            echo "✅ tests/ folder found. Running pytest..."
-            pytest tests/
-          else
-            echo "⚠️ No se encontró carpeta de pruebas. Flujo continuará sin ejecutar tests."
-            echo "⚠️ tests/ folder not found. Skipping test execution."
