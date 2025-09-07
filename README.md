@@ -60,7 +60,8 @@
 
 ## 💖 Apoya este proyecto
 
-Este repositorio forma parte de una biblioteca técnica y ética internacional. Si valoras el trabajo de documentación, auditoría y educación abierta, puedes apoyar aquí:
+Este repositorio forma parte de una biblioteca técnica y ética internacional. Si valoras el trabajo de documentación, auditoría y educación abierta,
+puedes apoyar aquí:
 
 👉 [Buy Me a Coffee](https://www.buymeacoffee.com/compucellags)  
 👉 [GitHub Sponsors](https://github.com/sponsors/CompuCellags) 
@@ -70,21 +71,25 @@ Tu apoyo permite seguir creando módulos bilingües, trazables y accesibles para
 
 ##🧠 IA Core Models
 
-Central repository for the development, training, and evaluation of artificial intelligence models applicable to industrial, educational, and automation environments.
+Central repository for the development, training, and evaluation of artificial intelligence models applicable to industrial, educational,
+and automation environments.
 
 ---
 
-Repositorio central para el desarrollo, entrenamiento y evaluación de modelos de inteligencia artificial aplicables a entornos industriales, educativos y de automatización.
+Repositorio central para el desarrollo, entrenamiento y evaluación de modelos de inteligencia artificial aplicables a entornos industriales, 
+educativos y de automatización.
 
 ---
 
 ##📦 Repository Structure
 
-This project is distributed under the Apache 2.0 License. You may use, modify, and share freely, provided that attribution to Develop Aguascalientes is maintained and the ethical and educational purpose of the repository is preserved.
+This project is distributed under the Apache 2.0 License. You may use, modify, and share freely, provided that attribution to Develop
+Aguascalientes is maintained and the ethical and educational purpose of the repository is preserved.
 
 ---
 
-Este proyecto se distribuye bajo la licencia Apache 2.0. Puedes usar, modificar y compartir libremente, siempre que se mantenga la atribución a Develop Aguascalientes y se preserve la trazabilidad ética y el propósito educativo del repositorio.
+Este proyecto se distribuye bajo la licencia Apache 2.0. Puedes usar, modificar y compartir libremente, siempre que se mantenga la
+atribución a Develop Aguascalientes y se preserve la trazabilidad ética y el propósito educativo del repositorio.
 
 📁 training/ — reproducible training scripts  
 📁 configs/ — auditable YAML configurations for models  
@@ -94,11 +99,13 @@ Este proyecto se distribuye bajo la licencia Apache 2.0. Puedes usar, modificar 
 📁 utils/ — auxiliary functions and multiplatform tools
 
 
-Each folder is documented with license headers, technical traceability, and educational purpose. See docs/estructura_modular.md for details.
+Each folder is documented with license headers, technical traceability, and educational purpose. See docs/estructura_modular.md
+for details.
 
 ---
 
-Cada carpeta está documentada con encabezados de licencia, trazabilidad técnica y propósito educativo. Consulta docs/estructura_modular.md para detalles.
+Cada carpeta está documentada con encabezados de licencia, trazabilidad técnica y propósito educativo. Consulta docs/estructura_modular.md
+para detalles.
 
 ---
 
@@ -172,13 +179,17 @@ python training/train_cnn.py --config configs/cnn_default.yaml
 
 ##🎓 Credits & Acknowledgments
 
-We thank Copilot Microsoft for its role as technical assistant, documentation co-author, and strategic collaborator in modular structuring, multiplatform automation, and educational case design.
-This repository is part of an expanding technical library focused on creating educational resources, industrial solutions, and AI models ready for real-world integration.
+We thank Copilot Microsoft for its role as technical assistant, documentation co-author, and strategic collaborator in modular structuring,
+multiplatform automation, and educational case design.
+This repository is part of an expanding technical library focused on creating educational resources, industrial solutions, and AI models
+ready for real-world integration.
 
 ---
 
-Agradecemos la participación de Copilot Microsoft como asistente técnico, co-creador de documentación y colaborador estratégico en la estructuración modular, automatización multiplataforma y diseño de casos educativos.
-Este repositorio forma parte de una biblioteca técnica en expansión, orientada a la creación de recursos educativos, soluciones industriales y modelos IA listos para integrar en entornos reales.
+Agradecemos la participación de Copilot Microsoft como asistente técnico, co-creador de documentación y colaborador estratégico en la
+estructuración modular, automatización multiplataforma y diseño de casos educativos.
+Este repositorio forma parte de una biblioteca técnica en expansión, orientada a la creación de recursos educativos,
+soluciones industriales y modelos IA listos para integrar en entornos reales.
 
 ---
 
@@ -186,7 +197,8 @@ Este repositorio forma parte de una biblioteca técnica en expansión, orientada
 
 If you use this repository in publications, presentations, or derivative projects, please cite as:
 
-Develop Aguascalientes & Copilot Microsoft (2025). IA Core Models: Modular repository for training and evaluation of AI models. Apache License 2.0. GitHub: https://github.com/CompuCellags/core-ia-
+Develop Aguascalientes & Copilot Microsoft (2025). IA Core Models: Modular repository for training and evaluation of AI models.
+Apache License 2.0. GitHub: https://github.com/CompuCellags/ia-core-models
 
 También puedes consultar el archivo CITATION.cff para formatos compatibles con BibTeX, EndNote y Zotero.
 
@@ -194,13 +206,16 @@ También puedes consultar el archivo CITATION.cff para formatos compatibles con 
 
 ##🛡️ License
 
-This project is licensed under the terms of the Apache License 2.0. Use, modification, and distribution are permitted with attribution, provided that ethical and technical traceability of the original work is maintained.
+This project is licensed under the terms of the Apache License 2.0. Use, modification, and distribution are permitted with attribution,
+provided that ethical and technical traceability of the original work is maintained.
 © 2025 Develop Aguascalientes & Copilot Microsoft. All modules, scripts, and documentation are subject to open access principles with mandatory attribution.
 
 ---
 
-Este proyecto está licenciado bajo los términos de la Licencia Apache 2.0. Esto permite el uso, modificación y distribución con atribución, siempre que se mantenga la trazabilidad ética y técnica del trabajo original.
-© 2025 Develop Aguascalientes & Copilot Microsoft. Todos los módulos, scripts y documentación están sujetos a los principios de acceso abierto con atribución obligatoria.
+Este proyecto está licenciado bajo los términos de la Licencia Apache 2.0. Esto permite el uso, modificación y distribución con atribución,
+siempre que se mantenga la trazabilidad ética y técnica del trabajo original.
+© 2025 Develop Aguascalientes & Copilot Microsoft. Todos los módulos, scripts y documentación están sujetos a los principios de acceso abierto
+con atribución obligatoria.
 
 ---
 
