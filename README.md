@@ -145,7 +145,7 @@ Cada carpeta está documentada con encabezados de licencia, trazabilidad técnic
 ##📁 Usage Example
 
 # Clone the repository
-git clone git@github.com:tuusuario/ia-core-models.git
+git clone git@github.com:CompuCellags/ia-core-models.git
 cd ia-core-models
 
 # Create virtual environment
